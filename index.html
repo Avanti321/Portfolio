@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avanti Joshi | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7b43a5c91c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+    <nav>
+        <img src="logo.png" alt="Logo" class="logo">
+
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="menu-close">
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars menu-open" onclick="openmenu()"></i>
+    </nav>
+        <div class="resume-wrapper">
+            <a href="RESUME.pdf"download class="btn btn2">My Resume</a>
+        </div>
+            <div class="header-text">
+                <h3><strong>Web Developer</strong></h3>
+                <h1>Hi, I'm <span>Avanti Joshi</span><br>From Ahilaynagar</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------About Me------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpg" alt="Avanti Joshi"/>
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Aspiring Web Developer skilled in HTML, CSS, and JavaScript, with good working knowledge of SQL and Django. Interested in developing responsive websites and dynamic web applications.</p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab"id="skills">
+                <ul>
+                    <li><span>HTML & CSS</span><br>Creating responsive and accessible web pages</li>
+                    <li><span>JavaScript</span><br>Interactive functionality and DOM manipulation</li>
+                    <li><span>Web Performance</span><br>Page speed optimization and clean coding practices</li>
+                </ul>
+               </div>
+               <div class="tab-contents"id="experience">
+                <ul>
+                    <li><span>I am a fresher currently pursuing an M.Sc. in Computer Science.</span></li>
+                    
+                </ul>
+               </div>
+               <div class="tab-contents"id="education">
+                <ul>
+                    <li><span>HTML & CSS</span><br>Creating responsive and accessible web pages</li>
+                    <li><span>JavaScript</span><br>Interactive functionality and DOM manipulation</li>
+                    <li><span>SQL</span><br>Database design, queries, joins, and data management</li>
+                    <li><span>Django</span><br>Backend development, RESTful views, and database integration</li>
+                </ul>
+               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------Services--------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-user-doctor"></i>
+                    <h2>Doctor Finder & Appointment Booking</h2>
+                    <p>Developed a full-stack web application using Django and SQL that allows users to search doctors, view profiles, and book appointments securely.</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h2>E-Commerce Website</h2>
+                    <p>Built a responsive e-commerce website using HTML, CSS, and JavaScript with product listings, cart functionality, and dynamic UI interactions.</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Personal Portfolio Website</h2>
+                    <p>Designed and developed a responsive personal portfolio to showcase projects,skills, and contact information using modern web design principles.</p>
+                </div>  
+        </div>
+    </div>
+</div>
+<!----------------------Portfolio-------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Doctor Finder & Appointment Booking</h3>
+                        <p>A full-stack web application built using Django and SQL that allows users to search doctors, view details, and book appointments online.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Simon Game</h3>
+                        <p>Interactive memory-based game developed using HTML, CSS, and JavaScript with dynamic UI and event handling.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>Responsive e-commerce website built using HTML, CSS, and JavaScript featuring product listings, cart functionality, and modern UI design.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#"class="btn">See More</a>
+        </div>
+    </div>
+    <!------------------------Contact------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>joshiavanti2004@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+918767484783</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                        <input type="text"name="Name"placeholder="Your Name" required>
+                        <input type="text"name="Email"placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+                    </form>
+                <span id="msg"></span></div>
+                        
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Avanti.Made with<i class="fa-solid fa-heart"></i>by easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
