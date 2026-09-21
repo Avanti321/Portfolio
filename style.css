@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding: 0;
-    font-family: 'Poppins','sans-serif';
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -128,8 +128,13 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color:#b54769;
+    color:  #ef326e;
     font-size: 14px;
+}
+.tab-contents ul li .score{
+    color: #b54769;
+    font-size: 14px;
+    font-weight: 500;
 }
 .tab-contents{
     display: none;
@@ -176,6 +181,60 @@ padding: 30px 0;
     background: #ff004f;
     transform: translateY(-10px);
 }
+
+/* ------------------Project card extras (tags + links)------------------ */
+.tech-tags{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 18px 0 0;
+    padding: 0;
+}
+.tech-tags li{
+    font-size: 12px;
+    padding: 4px 10px;
+    border: 1px solid #ff004f;
+    border-radius: 20px;
+    color: #fff;
+    margin: 0;
+    transition: border-color 0.5s;
+}
+/* tags turn white on hover because the card background becomes pink */
+.services-list div:hover .tech-tags li{
+    border-color: #fff;
+}
+/* these selectors are more specific than ".services-list div a / i"
+   so the small link row is not overridden by the card styles above */
+.services-list .project-links{
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+.services-list .project-links a{
+    margin-top: 0;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.services-list .project-links a i{
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-right: 6px;
+}
+.services-list .project-links a:hover{
+    color: #ff004f;
+}
+.services-list div:hover .project-links a:hover{
+    color: #080808;
+}
+.layer .tech-line{
+    font-size: 12px;
+    margin-top: 8px;
+    color: #ffd1de;
+}
+
 /* -------------------------Portfolio--------------------------- */
 #portfolio{
     padding: 50px 0;
