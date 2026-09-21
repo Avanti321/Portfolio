@@ -4,12 +4,6 @@ A responsive personal portfolio website that showcases my skills, education and 
 
 **Live site:** [your-username.github.io/your-repo-name](https://your-username.github.io/your-repo-name)
 
-## Preview
-
-![Portfolio preview](preview.png)
-
-> Add a screenshot of the site named `preview.png` to the repository so it shows here.
-
 ## Features
 
 - Responsive layout that works on desktop, tablet and mobile
