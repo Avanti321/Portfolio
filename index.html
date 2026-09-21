@@ -18,8 +18,8 @@
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#portfolio">Main Projects</a></li>
+                    <li><a href="#services">More Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li class="menu-close">
                         <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -28,14 +28,15 @@
                 <i class="fa-solid fa-bars menu-open" onclick="openmenu()"></i>
             </nav>
             <div class="resume-wrapper">
-                <a href="Resume.pdf" download class="btn btn2">My Resume</a>
+                <a href="AVANTI_JOSHI_RESUME.pdf" download class="btn btn2">My Resume</a>
             </div>
             <div class="header-text">
-                <h3><strong>Frontend Developer  |  Full-Stack Enthusiast  |  CS Graduate</strong></h3>
-                <h1>Hi, I'm <span>Avanti Joshi</span><br>From Ahilaynagar</h1>
+                <h3><strong>Frontend Developer | Full Stack Developer | Software Developer</strong></h3>
+                <h1>Hi, I'm <span>Avanti Joshi</span><br>From Ahilyanagar</h1>
             </div>
         </div>
     </div>
+
     <!-------------------About Me------------------------>
     <div id="about">
         <div class="container">
@@ -56,6 +57,8 @@
                         <ul>
                             <li><span>HTML & CSS</span><br>Creating responsive and accessible web pages</li>
                             <li><span>JavaScript</span><br>Interactive functionality and DOM manipulation</li>
+                            <li><span>React.js, Node.js & MongoDB</span><br>Building full-stack MERN applications with
+                                REST APIs</li>
                             <li><span>Web Performance</span><br>Page speed optimization and clean coding practices</li>
                             <li><span>Python</span><br>Data analysis, scripting, and basic application development</li>
                             <li><span>SQL</span><br>Database management, queries, and data manipulation</li>
@@ -63,89 +66,226 @@
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>Fresher Full Stack Developer with hands-on experience in developing responsive web applications using HTML, CSS, JavaScript, React.js, Node.js, and MongoDB. Skilled in both frontend and backend development, REST APIs, database management, and creating user-friendly web interfaces.</span></li>
-
+                            <li><span>Fresher Full Stack Developer with hands-on experience in developing responsive web
+                                    applications using HTML, CSS, JavaScript, React.js, Node.js, and MongoDB. Skilled in
+                                    both frontend and backend development, REST APIs, database management, and creating
+                                    user-friendly web interfaces.</span></li>
                         </ul>
                     </div>
+                    <!-- TODO: replace the placeholders below with your real education details -->
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>HTML & CSS</span><br>Creating responsive and accessible web pages</li>
-                            <li><span>JavaScript</span><br>Interactive functionality and DOM manipulation</li>
-                            <li><span>SQL</span><br>Database design, queries, joins, and data management</li>
-                            <li><span>Python</span><br>Data analysis, scripting, and basic application development</li>
+                            <li><span>Master Of Science(MCS)</span><br>Modern College Of Arts Science And Commerce Pune,
+                                SPPU — 2024 to 2026<br><strong class="score">CGPA: 9.11</strong></li>
+
+                            <li><span>Bachelor Of Science(BCS)</span><br>BPHE Socity's Nagar College Ahilyanagar,
+                                SPPU — 2021 to 2024<br><strong class="score">CGPA: 8.88</strong></li>
+
+                            <li><span>HSC</span><br>Rupibai Motilaji Bora New English School Ahilyanagar, State Board —
+                                2021<br><strong class="score">Percentage: 87.17%</strong></li>
+
+                            <li><span>SSC</span><br>Bahusaheb Firodiya Highschool Ahilyanagar, State Board — 2019
+                                <br><strong class="score">Percentage: 77.40%</strong>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!----------------------Services--------------------------->
-    <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-user-doctor"></i>
-                    <h2>Appointment Booking System(MERN)</h2>
-                    <p>Built a full-stack MERN application for doctor search and appointment scheduling.
-                        Implemented JWT-based authentication, protected routes, and RESTful API endpoints.
-                        Designed responsive React UI with real-time slot availability and booking confirmation.</p>
-                </div>
 
-                <div>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <h2>Diet Planner Application</h2>
-                    <p>Developed a dynamic Diet Planner Application using Java and PostgreSQL to manage user profiles,
-                        dietary preferences, and personalized meal plans.</p>
-                </div>
-
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Personal Portfolio Website</h2>
-                    <p>Designed and developed a responsive personal portfolio to showcase projects,skills, and contact
-                        information using modern web design principles.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!----------------------Portfolio-------------------------->
+    <!----------------------Main Projects (with images)-------------------------->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <h1 class="sub-title">Main Projects</h1>
             <div class="work-list">
+
                 <div class="work">
-                    <img src="work-1.png">
+                    <img src="work-1.png" alt="Automated Report Generator System">
                     <div class="layer">
-                        <h3>Cafe Billing System</h3>
-                        <p>Developed a desktop-based billing application to manage orders and generate bills.Designed a
-                            simple and intuitive GUI using Java Swing.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Automated Report Generator System (MERN)</h3>
+                        <p>Automates event report generation for college administration. Dynamic form-based data entry
+                            produces auto-populated PDF reports from backend templates, with structured storage in
+                            MongoDB that cuts manual preparation time.</p>
+                        <p class="tech-line">React.js · Node.js · Express · MongoDB · PDF Generation</p>
+                        <a href="#" aria-label="View Automated Report Generator System"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
 
                 <div class="work">
-                    <img src="work-2.png">
+                    <img src="work-2.png" alt="Doctor Appointment Booking System">
                     <div class="layer">
-                        <h3>Automated Report Generator</h3>
-                        <p>Developed a MERN web app to automate generation of event reports for college administration.
-                            Built dynamic form-based data entry with auto-populated PDF/report output using backend templates.
-                            Reduced manual report preparation time with structured data storage in MongoDB.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Doctor Appointment Booking System (MERN)</h3>
+                        <p>Full-stack app for searching doctors and booking appointments. Includes JWT authentication,
+                            protected routes, RESTful APIs, and a responsive React UI with real-time slot availability
+                            and booking confirmation.</p>
+                        <p class="tech-line">React.js · Node.js · Express · MongoDB · JWT</p>
+                        <a href="#" aria-label="View Doctor Appointment Booking System"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
+
                 <div class="work">
-                    <img src="work-3.png">
+                    <img src="work-3.png" alt="Integrated Food Delivery Application">
                     <div class="layer">
-                        <h3>Integrated Food Delivery Application(MERN)</h3>
-                        <p>An integrated food delivery application was developed using the MERN stack, allowing users to browse restaurants, order food online, book tables, and track deliveries in real time. The system includes secure user authentication, online payment integration, and an admin panel for managing orders, reservations, restaurants, and customers efficiently.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Integrated Food Delivery Application (MERN)</h3>
+                        <p>Users can browse restaurants, order food online, book tables, and track deliveries in real
+                            time. Includes secure authentication, online payment integration, and an admin panel to
+                            manage orders, reservations, restaurants, and customers.</p>
+                        <p class="tech-line">React.js · Node.js · Express · MongoDB · Payment Gateway</p>
+                        <a href="#" aria-label="View Food Delivery Application"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
+                </div>
+
+
+
+            </div>
+            <a href="https://github.com/Avanti321" class="btn">See More on GitHub</a>
+        </div>
+    </div>
+
+    <!----------------------Secondary Projects-------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">More Projects</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>User Authentication System</h2>
+                    <p>A secure sign-up and login system with form validation, password hashing, and protected pages
+                        that only logged-in users can open.</p>
+                    <ul class="tech-tags">
+                        <li>Authentication</li>
+                        <li>Validation</li>
+                        <li>Security</li>
+                    </ul>
+                    <p class="project-links">
+                        <a href="#"><i class="fa-brands fa-github"></i>Code</a>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live</a>
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>Logic Gate Learning Device</h2>
+                    <p>An interactive learning tool that helps students understand AND, OR, NOT, NAND, NOR, XOR and
+                        XNOR gates by toggling inputs and seeing the output and truth table update instantly.</p>
+                    <ul class="tech-tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p class="project-links">
+                        <a href="#"><i class="fa-brands fa-github"></i>Code</a>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live</a>
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Modern Calculator</h2>
+                    <p>A clean, responsive calculator with a modern interface, keyboard support, and a history of
+                        recent calculations.</p>
+                    <ul class="tech-tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p class="project-links">
+                        <a href="#"><i class="fa-brands fa-github"></i>Code</a>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live</a>
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Gaming Website</h2>
+                    <p>A responsive gaming website with a game catalogue, category filters, and a bold, animated
+                        layout that works on desktop and mobile. Includes a playable Simon Says memory game where
+                        you repeat an ever-growing colour and sound sequence, with level tracking and a high score.</p>
+                    <ul class="tech-tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p class="project-links">
+                        <a href="#"><i class="fa-brands fa-github"></i>Code</a>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live</a>
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-utensils"></i>
+                    <h2>Diet Planner Application</h2>
+                    <p>A dynamic application built with Java and PostgreSQL to manage user profiles, dietary
+                        preferences, and personalized meal plans.</p>
+                    <ul class="tech-tags">
+                        <li>Java</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                    <p class="project-links">
+                        <a href="#"><i class="fa-brands fa-github"></i>Code</a>
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h2>Cafe Billing System</h2>
+                    <p>A desktop billing application to manage orders and generate bills, with a simple and intuitive
+                        GUI designed using Java Swing.</p>
+                    <ul class="tech-tags">
+                        <li>Java</li>
+                        <li>Java Swing</li>
+                    </ul>
+                    <p class="project-links">
+                        <a href="#"><i class="fa-brands fa-github"></i>Code</a>
+                    </p>
+                </div>
+
+                        <div>
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h2>CareerTrack AI</h2>
+                    <p>A data-driven career tracking web application built with Flask. Stores data in MySQL using
+                        SQLAlchemy, processes it with Pandas, and shows interactive Plotly charts so users can
+                        track progress and spot trends at a glance.</p>
+                    <ul class="tech-tags">
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>MySQL</li>
+                        <li>SQLAlchemy</li>
+                        <li>Pandas</li>
+                        <li>Plotly</li>
+                    </ul>
+                    <p class="project-links">
+                        <a href="#"><i class="fa-brands fa-github"></i>Code</a>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live</a>
+                    </p>
+                </div>
+ 
+                <div>
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <h2>Zomato Data Analysis</h2>
+                    <p>Exploratory Data Analysis on Zomato restaurant data using Python to uncover customer ordering
+                        patterns, rating trends, and business insights. A hands-on data analytics project that turns
+                        raw restaurant data into clear findings.</p>
+                    <ul class="tech-tags">
+                        <li>Python</li>
+                        <li>Pandas</li>
+                        <li>EDA</li>
+                        <li>Data Visualization</li>
+                    </ul>
+                    <p class="project-links">
+                        <a href="#"><i class="fa-brands fa-github"></i>Code</a>
+                    </p>
                 </div>
 
             </div>
-            <a href="#" class="btn">See More</a>
         </div>
     </div>
+
     <!------------------------Contact------------------------------->
     <div id="contact">
         <div class="container">
@@ -156,9 +296,10 @@
                     <p><i class="fa-solid fa-phone"></i>+918767484783</p>
                     <div class="social-icons">
                         <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/Avanti321"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/avanti-joshi-18154029b"><i
+                                class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
 
@@ -175,9 +316,10 @@
             </div>
         </div>
         <div class="copyright">
-            <p>copyright @Avanti.Made with<i class="fa-solid fa-heart"></i>by easy Tutorials</p>
+            <p>Copyright &copy; 2026 Avanti Joshi. Made with <i class="fa-solid fa-heart"></i></p>
         </div>
     </div>
+
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
